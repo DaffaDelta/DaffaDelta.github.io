@@ -1,0 +1,64 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* The image used */
+    background-image: url("background-image.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+    margin: 32px 0;
+    color: #674ea7;
+}
+
+.title h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #e25c67;
+    line-height: 1;
+}
+
+.title h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 24px;
+    color: #674ea7;
+    margin-top: 5px;
+}
+
+.title p {
+    color: #564861;
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.date {
+    color: #874562;
+    font-weight: 900;
+}
+
+.place {
+    color: #874562;
+    font-weight: 900;
+}
