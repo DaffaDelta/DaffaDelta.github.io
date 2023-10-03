@@ -108,6 +108,18 @@
     display: block;
 }
 
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 @media (max-width: 550px) {
     .home-content {
         padding: 30px;
