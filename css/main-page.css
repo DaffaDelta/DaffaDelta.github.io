@@ -109,15 +109,15 @@
 }
 
 .reveal {
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 1s all ease;
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
 }
 
 .reveal.active {
-    transform: translateY(0px);
-    opacity: 1;
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 @media (max-width: 550px) {
