@@ -6,7 +6,7 @@
     text-align: center;
 
     /* The image used */
-    background-image: url("background-image.png");
+    background-image: url("background-image.jpg");
 
     /* Full height */
     height: 100%; 
@@ -23,7 +23,7 @@
     font-style: normal;
     font-size: 120px;
     margin: 32px 0;
-    color: #674ea7;
+    color: #9a6941;
 }
 
 .title h2 {
@@ -42,7 +42,7 @@
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 48px;
-    color: #674ea7;
+    color: #9a6941;
     margin-top: 5px;
 }
 
@@ -52,6 +52,7 @@
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 32px;
+    width: 60%;
 }
 
 .date {
@@ -85,19 +86,19 @@
 
 @media (max-width: 1366px) {
     .title h1 {
-        font-size: 64px;
+        font-size: 42px;
         margin: 8px 0;
     }
     
     .title h2 {
-        font-size: 28px;
+        font-size: 18px;
     }
     
     .title h3 {
-        font-size: 28px;
+        font-size: 18px;
     }
     
     .title p {
-        font-size: 20px;
+        font-size: 14px;
     }
 }

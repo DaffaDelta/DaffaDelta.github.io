@@ -1,0 +1,68 @@
+.opener {
+    display: block;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 9;
+
+    background-image: url(open-invitation-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120%;
+}
+
+.open-invitation {
+    text-align: center;
+}
+
+.open-invitation h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 32px;
+    margin: 4px 0;
+    color: #ffffff;
+}
+
+.open-invitation h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 42px;
+    margin-bottom: 8px;
+}
+
+.open-invitation p {
+    color: #ffffff;
+    margin: 8px 0 200px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.button-wrapper {
+    text-align: center;
+}
+
+.open-button {
+    border: solid #9a6941c5 3px;
+    background-color: #f5f5f5c5;
+    border-radius: 8px;
+}
+
+.open-button-text {
+    color: #9a6941;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px 10px 10px 10px;
+}
+
+.email-icon {
+    margin: 0px;
+    width: 40%;
+}

@@ -108,6 +108,15 @@
     display: block;
 }
 
+.prewed-photo-content {
+    padding: 3px;
+}
+
+.prewed-photo-content img {
+    max-width: 100%;
+    max-height: 100vh;
+}
+
 .reveal {
     position: relative;
     transform: translateY(150px);
