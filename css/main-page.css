@@ -1,9 +1,18 @@
 .home-content {
+    background-image: url("bg/bg-home-content.jpg");
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     padding: 60px 0px;
+
+    margin-bottom: 10px;
 }
 
 .divider,
@@ -17,6 +26,7 @@
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     line-height: 27px;
+    margin-top: 65px;
     margin-bottom: 40px;
 }
 
@@ -24,8 +34,9 @@
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     font-style: normal;
-    font-size: 50px;
+    font-size: 45px;
     color: #996E6D;
+    margin-top: 40px;
 }
 
 .home-content h2 {
@@ -39,9 +50,52 @@
     line-height: 1;
 }
 
-.time-content {
-    background-color: #F4E2E2;
+.profile-content {
+    background-image: url("bg/bg-profile.jpg");
+    height: 100%; 
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 50px 0px;
+
+    margin-bottom: 10px;
+}
+
+.profile-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    color: #996E6D;
+    text-align: center;
+}
+
+.profile-content p{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.profile-content img {
+    max-width: 50%;
+    max-height: 100vh;
+}
+
+
+.time-content {
+    background-image: url("bg/bg-waktu.jpg");
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+
+    margin-bottom: 10px;
     
 }
 
@@ -54,16 +108,16 @@
 
 .time-title, .location-title {
     font-family: "Raleway", sans-serif;
-    font-size: 44px;
+    font-size: 36px;
     color: #996E6D;
     text-align: center;
-    margin-bottom: 50px;
+    margin-top: 60px;
 }
 
 .time-details h1 {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
-    font-size: 32px
+    font-size: 24px
 }
 
 .time-details h2 {
@@ -79,9 +133,31 @@
     margin: 0;
 }
 
+.time-content p {
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.timer-wrapper {
+    text-align: center;
+}
+
 .location-content {
-    background-color: rgb(237, 210, 209);
+    background-image: url(bg/bg-location.jpg);
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 50px;
+
+    margin-bottom: 10px;
+}
+
+.location-map {
+    margin-top: 80px;
 }
 
 .location-details {
@@ -90,22 +166,16 @@
 }
 
 .location-details h1 {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 16px;
     margin-bottom: 2px;
 }
 
 .location-details h2 {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
-    font-size: 22px;
-}
-
-.location-img {
-    width: 900px;
-    margin: 35px auto;
-    display: block;
+    font-size: 14px;
 }
 
 .prewed-photo-content {
@@ -117,11 +187,36 @@
     max-height: 100vh;
 }
 
+.video-content {
+    background-color: #edd2d1;
+    text-align: center;
+    
+    background-image: url(bg/bg-profile.jpg);
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.video-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    color: #996E6D;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
 .reveal {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: 1s all ease;
+    transition: 0.75s all ease;
 }
 
 .reveal.active {
@@ -153,7 +248,7 @@
     }
 
     .time-details h1 {
-        font-size: 20px
+        font-size: 18px
     }
     
     .time-details h2 {

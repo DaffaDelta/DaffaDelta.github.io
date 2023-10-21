@@ -2,11 +2,22 @@
 <html>
     <head>
         <title>tes</title>
+        <script src="js/opener.js"></script>
     </head>
 
     <body>
-        <audio autoplay>
-            <source src="audio/bg-music.mp3" type="audio/mp3" />
-          </audio>
+        <button id="ASong" class="open-button" onClick="playPause()">
+                <audio
+                    src="js/audio/bg-music.mp3"
+                    autoplay
+                    loop
+                ></audio>
+                <img class="email-icon" src="images/email.png">
+        </button>
+        
+        <script>
+            var aud = document.getElementById("ASong").children[0];
+            aud.pause();
+        </script>
     </body>
 </html>
